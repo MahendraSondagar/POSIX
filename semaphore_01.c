@@ -38,5 +38,6 @@ int main(void)
  /* joining the thread */
   pthread_join(boss_tid, NULL);
   pthread_join(employee_tid, NULL);
+  sem_destory(&Mysem);
   return 0;
 }
