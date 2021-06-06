@@ -3,7 +3,7 @@
 #include <pthread.h>
 #include <semaphore.h>
 
-/* Gloabl semaphoer handler */
+/* Global semaphoer handler */
 sem_t Mysem;
 
 
